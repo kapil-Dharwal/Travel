@@ -1,0 +1,2007 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Home Page</title>
+    <link rel="stylesheet" href="Travell.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ------------------------------NAVBAR------------------------------------------------ -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="Travell.css" id="logo"
+          ><span>T</span>ravel</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mynavbar"
+        >
+          <span><i class="fa-solid fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="Travel.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#book">Book</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#packages">Packages</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle px-4"
+                href="#login"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Login</a
+              >
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li><a href="" class="dropdown-item">SignUp</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallary">Gallary</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">AboutUs</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle px-4"
+                href="#login"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Login</a
+              >
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li><a href="" class="dropdown-item">SignUp</a></li>
+              </ul>
+            </li>
+           
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="text" placeholder="Search" />
+            <button class="btn btn-primary" type="button">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- -------------------------------HOME SECTION-------------------------------------- -->
+    <div class="home">
+      <img class="img-fluid" src="./image/tr.jpg" width="100%" alt="" ; />
+      <div class="content">
+        <h5>Welcome<br />To<br />Bharat Tourism Hub</h5>
+        <h1>Visit <span class="changecontent"></span></h1>
+        
+        <!-- <a href="#book">Book Place</a> -->
+      </div>
+    </div>
+
+    <section class="book" id="book">
+      <div class="container">
+        <div class="main-text">
+          <h1><span>B</span>ook</h1>
+        </div>
+        <div class="row">
+          <div class="col-md-6 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/booking.jpg" alt="" height="520px" />
+            </div>
+          </div>
+          <div class="col-md-6 py-3 py-md-0">
+            <form action="#">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Where To"
+                required
+              /><br />
+              <input
+                type="text"
+                class="form-control"
+                placeholder="How Many"
+                required
+              /><br />
+              <input
+                type="date"
+                class="form-control"
+                placeholder="Arrivals"
+                required
+              /><br />
+              <input
+                type="date"
+                class="form-control"
+                placeholder="Leaving"
+                required
+              /><br />
+              <textarea
+                class="form-control"
+                rows="5"
+                name="text"
+                placeholder="Enter Your Name & Details"
+              ></textarea>
+              <input type="submit" value="Book Now" class="submit" required />
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -----------------------------------PACKAGES---------------------------------------------------- -->
+    <section class="packages" id="packages">
+      <div class="container">
+        <div class="main-txt">
+          <h1><span>P</span>ackages</h1>
+        </div>
+        <div class="row" style="margin-top: 30px">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/jk2.jpeg" alt="" />
+              <div class="card-body">
+                <h3>J&K</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6>Price:<strong>Rs.500</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/utr5.jpg" alt="" />
+              <div class="card-body">
+                <h3>Uttrakhand</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6>Price:<strong>Rs.500</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/rj3.jpg" alt="" />
+              <div class="card-body">
+                <h3>Rajasthan</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6>Price:<strong>Rs.500</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" style="margin-top: 30px">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/hp.jpg" alt="" />
+              <div class="card-body">
+                <h3>Himachal Pradesh</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6>Price:<strong>Rs.500</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/mg5.webp" alt="" />
+              <div class="card-body">
+                <h3>Meghalaya</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6>Price:<strong>Rs.500</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/k.webp" alt="" />
+              <div class="card-body">
+                <h3>Kerala</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6>Price:<strong>Rs.500</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" style="margin-top: 30px">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/g14.jpg" alt="" />
+              <div class="card-body">
+                <h3>Goa</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6>Price:<strong>Rs.500</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/d.jpg" alt="" />
+              <div class="card-body">
+                <h3>Delhi</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6>Price:<strong>Rs.500</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/m.jpg" alt="" />
+              <div class="card-body">
+                <h3>Maharashtra</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6>Price:<strong>Rs.500</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="packages" id="packages">
+      <div class="container">
+        <div class="main-txt">
+          <!-- <h1><span>P</span>ackages</h1> -->
+        </div>
+        <div class="row" style="margin-top: 30px">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/andhrapradesh.png" alt="" />
+              <div class="card-body">
+                <h3>Andhra Pradesh</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6>Price:<strong>Rs.500</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/arunachal.png" alt="" height="237px" />
+              <div class="card-body">
+                <h3>Arunachal Pradesh</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6>Price:<strong>Rs.500</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/assam.png" alt="" height="237px"/>
+              <div class="card-body">
+                <h3>Assam</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6>Price:<strong>Rs.500</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" style="margin-top: 30px">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/bihar.png" alt="" height="237px" />
+              <div class="card-body">
+                <h3>Bihar</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6>Price:<strong>Rs.500</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/gujrat.png" alt="" height="237px"/>
+              <div class="card-body">
+                <h3>Gujrat</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6>Price:<strong>Rs.500</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/jharkhand.png" alt="" height="237px" />
+              <div class="card-body">
+                <h3>Jharkhand</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6>Price:<strong>Rs.500</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" style="margin-top: 30px">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/mp.png" alt="" height="237px" />
+              <div class="card-body">
+                <h3>Madhya Pradesh</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6>Price:<strong>Rs.500</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/manipur.png" alt="" height="237px" />
+              <div class="card-body">
+                <h3>Manipur</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6>Price:<strong>Rs.500</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/odisa.png" alt="" height="237px"/>
+              <div class="card-body">
+                <h3>Odisha</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6>Price:<strong>Rs.500</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="packages" id="packages">
+      <div class="container">
+        <div class="main-txt">
+          <!-- <h1><span>P</span>ackages</h1> -->
+        </div>
+        <div class="row" style="margin-top: 30px">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/punjab.png" alt="" />
+              <div class="card-body">
+                <h3>Punjab</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6>Price:<strong>Rs.500</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/sikkim.png" alt="" height="237px" />
+              <div class="card-body">
+                <h3>Sikkim</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6>Price:<strong>Rs.500</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/tamilnadu.png" alt="" height="237px"/>
+              <div class="card-body">
+                <h3>Tamilnadu</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6>Price:<strong>Rs.500</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" style="margin-top: 30px">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/telngana.png" alt="" height="237px" />
+              <div class="card-body">
+                <h3>Telangana</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6>Price:<strong>Rs.500</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/tripura.png" alt="" height="237px"/>
+              <div class="card-body">
+                <h3>Tripura</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6>Price:<strong>Rs.500</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/UPTAJ.png" alt="" height="237px" />
+              <div class="card-body">
+                <h3>Uttar Pradesh</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6>Price:<strong>Rs.500</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" style="margin-top: 30px">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/wb.png" alt="" height="237px" />
+              <div class="card-body">
+                <h3>Westbangal</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6>Price:<strong>Rs.500</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/36ghar.png" alt="" height="237px" />
+              <div class="card-body">
+                <h3>Chattisgarh</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6>Price:<strong>Rs.500</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/haryana.png" alt="" height="237px"/>
+              <div class="card-body">
+                <h3>Haryana</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6>Price:<strong>Rs.500</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <!-- <section>
+      <div class="container-fluid">
+        <div class="row row-cols-lg-1 row-cols-md-1 row-cols-1">
+          <div class="col">
+            <img
+              src="./image/hotelbook.jpg"
+              class="img-fluid"
+              width="100%"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="D1 mt-5">
+        <div class="container">
+          <div class="row row-cols-lg-1 row-cols-md-1 row-cols-1">
+            <div class="col text-center">
+              <h1 class="fw-bold" style="font-size: 50px">Hotel in indore</h1>
+              <p class="fs-4">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Repellat aliquam deserunt expedita assumenda, dignissimos earum
+                eum, temporibus ipsa quasi nemo esse nulla recusandae blanditiis
+                aspernatur corporis? Maiores voluptatibus alias suscipit?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="D1">
+        <a href="" class="text-decoration-none">
+          <div class="container">
+            <div class="row row-cols-lg-2 row-cols-md-2 row-cols-1">
+              <div class="col text-center w-100">
+                <h1 class="fw-bold" style="color: #223a66">
+                  Radisson Blu Hotel, Indore
+                </h1>
+              </div>
+              <div class="col mt-5">
+                <img
+                  class="img-fluid ms-5"
+                  src="./image/redi.jpg"
+                  width="70%"
+                  alt=""
+                />
+              </div>
+              <div class="col mt-5">
+                <p class="fs-4 text-dark">
+                  111The 5-star Radisson Blu Hotel features an indoor pool, a
+                  rooftop spa, a modern gym and free Wi-Fi.
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="D1">
+        <a href="" class="text-decoration-none">
+          <div class="container">
+            <div class="row row-cols-lg-2 row-cols-md-2 row-cols-1">
+              <div class="col text-center w-100">
+                <h1 class="fw-bold" style="color: #223a66">Sayaji Indore</h1>
+              </div>
+              <div class="col mt-5">
+                <img
+                  class="img-fluid ms-5"
+                  src="./image/sayaji.jpg"
+                  width="70%"
+                  alt=""
+                />
+              </div>
+              <div class="col mt-5">
+                <p class="fs-4 text-dark">
+                  Offering an outdoor swimming pool, a fitness centre and a spa
+                  and wellness centre, Sayaji Indore is located within 6 km from
+                  Indore Railway Station and Regional Park Boating Club.
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="D1">
+        <a href="" class="text-decoration-none">
+          <div class="container">
+            <div class="row row-cols-lg-2 row-cols-md-2 row-cols-1">
+              <div class="col text-center w-100">
+                <h1 class="fw-bold" style="color: #223a66">
+                  Indore Marriott Hotel
+                </h1>
+              </div>
+              <div class="col mt-5">
+                <img
+                  class="img-fluid ms-5"
+                  src="./image/mario.jpg"
+                  width="70%"
+                  alt=""
+                />
+              </div>
+              <div class="col mt-5">
+                <p class="fs-4 text-dark">
+                  Offering an outdoor swimming pool, a fitness centre and a spa
+                  and wellness centre, Sayaji Indore is located within 6 km from
+                  Indore Railway Station and Regional Park Boating Club.
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="D1">
+        <a href="" class="text-decoration-none">
+          <div class="container">
+            <div class="row row-cols-lg-2 row-cols-md-2 row-cols-1">
+              <div class="col text-center w-100">
+                <h1 class="fw-bold" style="color: #223a66">Wow crest,Hotel</h1>
+              </div>
+              <div class="col mt-5">
+                <img
+                  class="img-fluid ms-5"
+                  src="./image/wow.webp"
+                  width="70%"
+                  alt=""
+                />
+              </div>
+              <div class="col mt-5">
+                <p class="fs-4 text-dark">
+                  Located in Indore, 5.6 km from ISKCON Indore, WOW Hotel has
+                  rooms with free WiFi access. 6.7 km from Rajwada Palace, the
+                  hotel offers a fitness centre and a terrace. Guests can enjoy
+                  city views.
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="D1">
+        <a href="" class="text-decoration-none">
+          <div class="container">
+            <div class="row row-cols-lg-2 row-cols-md-2 row-cols-1">
+              <div class="col text-center w-100">
+                <h1 class="fw-bold" style="color: #223a66">Hotel New Sunder</h1>
+              </div>
+              <div class="col mt-5">
+                <img
+                  class="img-fluid ms-5"
+                  src="./image/sunder.jpg"
+                  width="70%"
+                  alt=""
+                />
+              </div>
+              <div class="col mt-5">
+                <p class="fs-4 text-dark">
+                  Hotel New Sunder offers accommodation in Indore. Free private
+                  parking is available on site. Certain rooms have a seating
+                  area where you can relax. All rooms are fitted with a private
+                  bathroom.
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section> -->
+    <!-- -------------------------------HOTEL BOOK------------------------------------------------- -->
+     <section class="hotel" id="hotel">
+      <div class="container">
+        <div class="main-txt">
+          <h1><span>H</span>otel</h1>
+          <h1><span>Indore</span> Hotels</h1>
+        </div>
+        <div class="row" style="margin-top: 30px">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/redi.jpg" alt="" height="235px" />
+              <div class="card-body">
+                <h5><b>Radisson Blu Hotel</b></h5>
+                <p>
+                  Offering an outdoor swimming pool, a fitness centre and a spa
+                  and wellness centre, Sayaji Indore is located within 6 km from
+                  Indore Railway Station and Regional Park Boating Club.
+                </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6>Price:<strong>Rs.500</strong></h6>
+                <a
+                  href="#book"
+                  class="btn"
+                  style="background-color: orange; color: #fff"
+                  >Book Now</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/sayaji.jpg" alt="" height="235px" />
+              <div class="card-body">
+                <h5><b>Sayaji Hotel Indore M.P.</b></h5>
+                <p>
+                  Offering an outdoor swimming pool, a fitness centre and a spa
+                  and wellness centre, Sayaji Indore is located within 6 km from
+                  Indore Railway Station and Regional Park Boating Club.
+                </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6>Price:<strong>RS.500</strong></h6>
+                <a
+                  href="#book"
+                  class="btn"
+                  style="background-color: orange; color: #fff"
+                  >Book Now</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/mario.jpg" alt="" height="235px" />
+              <div class="card-body">
+                <h5><b>Indore Marriott Hotel</b></h5>
+                <p>
+                  Offering an outdoor swimming pool, a fitness centre and a spa
+                  and wellness centre, Sayaji Indore is located within 6 km from
+                  Indore Railway Station and Regional Park Boating Club.
+                </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6>Price:<strong>Rs.500</strong></h6>
+                <a
+                  href="#book"
+                  class="btn"
+                  style="background-color: orange; color: #fff"
+                  >Book Now</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" style="margin-top: 30px">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/wow.webp" alt="" height="235px" />
+              <div class="card-body">
+                <h5><b>Wow crest,Hotel</b></h5>
+                <p>
+                  Offering an outdoor swimming pool, a fitness centre and a spa
+                  and wellness centre, Sayaji Indore is located within 6 km from
+                  Indore Railway Station and Regional Park Boating Club.
+                </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6>Price:<strong>Rs.500</strong></h6>
+                <a
+                  href="#book"
+                  class="btn"
+                  style="background-color: orange; color: #fff"
+                  >Book Now</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/sunder.jpg" alt="" />
+              <div class="card-body">
+                <h5><b>Hotel New Sunder</b></h5>
+                <p>
+                  Offering an outdoor swimming pool, a fitness centre and a spa
+                  and wellness centre, Sayaji Indore is located within 6 km from
+                  Indore Railway Station and Regional Park Boating Club.
+                </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6>Price:<strong>Rs.500</strong></h6>
+                <a
+                  href="#book"
+                  class="btn"
+                  style="background-color: orange; color: #fff"
+                  >Book Now</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/infihtl.jpg" alt="" height="235px" />
+              <div class="card-body">
+                <h5><b>Hotel Infiniti</b></h5>
+                <p>
+                  Offering an outdoor swimming pool, a fitness centre and a spa
+                  and wellness centre, Sayaji Indore is located within 6 km from
+                  Indore Railway Station and Regional Park Boating Club.
+                </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6>Price:<strong>Rs.500</strong></h6>
+                <a
+                  href="#book"
+                  class="btn"
+                  style="background-color: orange; color: #fff"
+                  >Book Now</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" style="margin-top: 30px">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/g14.jpg" alt="" />
+              <div class="card-body">
+                <h3>Goa</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6>Price:<strong>Rs.500</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/d.jpg" alt="" />
+              <div class="card-body">
+                <h3>Delhi</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6>Price:<strong>Rs.500</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/m.jpg" alt="" />
+              <div class="card-body">
+                <h3>Maharashtra</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6>Price:<strong>Rs.500</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+    </section>
+
+    <section>
+      <section class="hotel" id="hotel">
+        <div class="container">
+          <div class="main-txt">
+            <!-- <h1><span>H</span>otel</h1> -->
+            <h1><span>Ujjain</span> Hotels</h1>
+          </div>
+          <div class="row" style="margin-top: 30px">
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="./image/ujn.jpg " alt="" height="235px" />
+                <div class="card-body">
+                  <h5><b>Hotel Shree Krashna Palace</b></h5>
+                  <p>
+                    Offering an outdoor swimming pool, a fitness centre and a
+                    spa and wellness centre, Sayaji Indore is located within 6
+                    km from Indore Railway Station and Regional Park Boating
+                    Club.
+                  </p>
+                  <div class="star">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h6>Price:<strong>Rs.500</strong></h6>
+                  <a
+                    href="#book"
+                    class="btn"
+                    style="background-color: orange; color: #fff"
+                    >Book Now</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="./image/mark.jpg" alt="" height="235px" />
+                <div class="card-body">
+                  <h5><b>Hotel Mark</b></h5>
+                  <p>
+                    Offering an outdoor swimming pool, a fitness centre and a
+                    spa and wellness centre, Sayaji Indore is located within 6
+                    km from Indore Railway Station and Regional Park Boating
+                    Club.
+                  </p>
+                  <div class="star">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h6>Price:<strong>RS.500</strong></h6>
+                  <a
+                    href="#book"
+                    class="btn"
+                    style="background-color: orange; color: #fff"
+                    >Book Now</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="./image/aaradhya.avif" alt="" height="235px" />
+                <div class="card-body">
+                  <h5><b> Hotel Aradhya</b></h5>
+                  <p>
+                    Offering an outdoor swimming pool, a fitness centre and a
+                    spa and wellness centre, Sayaji Indore is located within 6
+                    km from Indore Railway Station and Regional Park Boating
+                    Club.
+                  </p>
+                  <div class="star">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h6>Price:<strong>Rs.500</strong></h6>
+                  <a
+                    href="#book"
+                    class="btn"
+                    style="background-color: orange; color: #fff"
+                    >Book Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row" style="margin-top: 30px">
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="./image/shipra.avif" alt="" height="235px" />
+                <div class="card-body">
+                  <h5><b>Hotel Shipra Inn</b></h5>
+                  <p>
+                    Offering an outdoor swimming pool, a fitness centre and a
+                    spa and wellness centre, Sayaji Indore is located within 6
+                    km from Indore Railway Station and Regional Park Boating
+                    Club.
+                  </p>
+                  <div class="star">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h6>Price:<strong>Rs.500</strong></h6>
+                  <a
+                    href="#book"
+                    class="btn"
+                    style="background-color: orange; color: #fff"
+                    >Book Now</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="./image/shree shyam.jpg" alt="" height="235px" />
+                <div class="card-body">
+                  <h5><b>Hotel Shsree Shyam Palace</b></h5>
+                  <p>
+                    Offering an outdoor swimming pool, a fitness centre and a
+                    spa and wellness centre, Sayaji Indore is located within 6
+                    km from Indore Railway Station and Regional Park Boating
+                    Club.
+                  </p>
+                  <div class="star">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h6>Price:<strong>Rs.500</strong></h6>
+                  <a
+                    href="#book"
+                    class="btn"
+                    style="background-color: orange; color: #fff"
+                    >Book Now</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="./image/mid.webp" alt="" height="235px" />
+                <div class="card-body">
+                  <h5><b>Hotel Midland</b></h5>
+                  <p>
+                    Offering an outdoor swimming pool, a fitness centre and a
+                    spa and wellness centre, Sayaji Indore is located within 6
+                    km from Indore Railway Station and Regional Park Boating
+                    Club.
+                  </p>
+                  <div class="star">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h6>Price:<strong>Rs.500</strong></h6>
+                  <a
+                    href="#book"
+                    class="btn"
+                    style="background-color: orange; color: #fff"
+                    >Book Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="hotel" id="hotel">
+        <div class="container">
+          <div class="main-txt">
+            <!-- <h1><span>H</span>otel</h1> -->
+            <h1><span>Jabalpur</span> Hotels</h1>
+          </div>
+          <div class="row" style="margin-top: 30px">
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="./image/max.jpeg " alt="" height="235px" />
+                <div class="card-body">
+                  <h5><b>Max Hotel Jabalpur</b></h5>
+                  <p>
+                    Offering an outdoor swimming pool, a fitness centre and a
+                    spa and wellness centre, Sayaji Indore is located within 6
+                    km from Indore Railway Station and Regional Park Boating
+                    Club.
+                  </p>
+                  <div class="star">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h6>Price:<strong>Rs.500</strong></h6>
+                  <a
+                    href="#book"
+                    class="btn"
+                    style="background-color: orange; color: #fff"
+                    >Book Now</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="./image/cozy.jpeg" alt="" height="235px" />
+                <div class="card-body">
+                  <h5><b>Hotel COZY Residency</b></h5>
+                  <p>
+                    Offering an outdoor swimming pool, a fitness centre and a
+                    spa and wellness centre, Sayaji Indore is located within 6
+                    km from Indore Railway Station and Regional Park Boating
+                    Club.
+                  </p>
+                  <div class="star">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h6>Price:<strong>RS.500</strong></h6>
+                  <a
+                    href="#book"
+                    class="btn"
+                    style="background-color: orange; color: #fff"
+                    >Book Now</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="./image/grend.jpg" alt="" height="235px" />
+                <div class="card-body">
+                  <h5><b>Hotel Grend Samdareeya</b></h5>
+                  <p>
+                    Offering an outdoor swimming pool, a fitness centre and a
+                    spa and wellness centre, Sayaji Indore is located within 6
+                    km from Indore Railway Station and Regional Park Boating
+                    Club.
+                  </p>
+                  <div class="star">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h6>Price:<strong>Rs.500</strong></h6>
+                  <a
+                    href="#book"
+                    class="btn"
+                    style="background-color: orange; color: #fff"
+                    >Book Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row" style="margin-top: 30px">
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="./image/royal.jpeg" alt="" height="235px" />
+                <div class="card-body">
+                  <h5><b>Royal Orbit</b></h5>
+                  <p>
+                    Offering an outdoor swimming pool, a fitness centre and a
+                    spa and wellness centre, Sayaji Indore is located within 6
+                    km from Indore Railway Station and Regional Park Boating
+                    Club.
+                  </p>
+                  <div class="star">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h6>Price:<strong>Rs.500</strong></h6>
+                  <a
+                    href="#book"
+                    class="btn"
+                    style="background-color: orange; color: #fff"
+                    >Book Now</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="./image/vrinda.jpg" alt="" height="235px" />
+                <div class="card-body">
+                  <h5><b>Vrindavan Gopala Resort</b></h5>
+                  <p>
+                    Offering an outdoor swimming pool, a fitness centre and a
+                    spa and wellness centre, Sayaji Indore is located within 6
+                    km from Indore Railway Station and Regional Park Boating
+                    Club.
+                  </p>
+                  <div class="star">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h6>Price:<strong>Rs.500</strong></h6>
+                  <a
+                    href="#book"
+                    class="btn"
+                    style="background-color: orange; color: #fff"
+                    >Book Now</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="./image/mid.webp" alt="" height="235px" />
+                <div class="card-body">
+                  <h5><b>Hotel Midland</b></h5>
+                  <p>
+                    Offering an outdoor swimming pool, a fitness centre and a
+                    spa and wellness centre, Sayaji Indore is located within 6
+                    km from Indore Railway Station and Regional Park Boating
+                    Club.
+                  </p>
+                  <div class="star">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h6>Price:<strong>Rs.500</strong></h6>
+                  <a
+                    href="#book"
+                    class="btn"
+                    style="background-color: orange; color: #fff"
+                    >Book Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="hotel" id="hotel">
+        <div class="container">
+          <div class="main-txt">
+            <!-- <h1><span>H</span>otel</h1> -->
+            <h1><span>Gwalior</span> Hotels</h1>
+          </div>
+          <div class="row" style="margin-top: 30px">
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="./image/shubh.jpg" alt="" height="235px" />
+                <div class="card-body">
+                  <h5><b>Shubhim Hotel</b></h5>
+                  <p>
+                    Offering an outdoor swimming pool, a fitness centre and a
+                    spa and wellness centre, Sayaji Indore is located within 6
+                    km from Indore Railway Station and Regional Park Boating
+                    Club.
+                  </p>
+                  <div class="star">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h6>Price:<strong>Rs.500</strong></h6>
+                  <a
+                    href="#book"
+                    class="btn"
+                    style="background-color: orange; color: #fff"
+                    >Book Now</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="./image/cozy.jpeg" alt="" height="235px" />
+                <div class="card-body">
+                  <h5><b>Dera Haweli</b></h5>
+                  <p>
+                    Offering an outdoor swimming pool, a fitness centre and a
+                    spa and wellness centre, Sayaji Indore is located within 6
+                    km from Indore Railway Station and Regional Park Boating
+                    Club.
+                  </p>
+                  <div class="star">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h6>Price:<strong>RS.500</strong></h6>
+                  <a
+                    href="#book"
+                    class="btn"
+                    style="background-color: orange; color: #fff"
+                    >Book Now</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="./image/grend.jpg" alt="" height="235px" />
+                <div class="card-body">
+                  <h5><b>Hotel Grace</b></h5>
+                  <p>
+                    Offering an outdoor swimming pool, a fitness centre and a
+                    spa and wellness centre, Sayaji Indore is located within 6
+                    km from Indore Railway Station and Regional Park Boating
+                    Club.
+                  </p>
+                  <div class="star">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h6>Price:<strong>Rs.500</strong></h6>
+                  <a
+                    href="#book"
+                    class="btn"
+                    style="background-color: orange; color: #fff"
+                    >Book Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row" style="margin-top: 30px">
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="./image/royal.jpeg" alt="" height="235px" />
+                <div class="card-body">
+                  <h5><b>Hotel Centella</b></h5>
+                  <p>
+                    Offering an outdoor swimming pool, a fitness centre and a
+                    spa and wellness centre, Sayaji Indore is located within 6
+                    km from Indore Railway Station and Regional Park Boating
+                    Club.
+                  </p>
+                  <div class="star">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h6>Price:<strong>Rs.500</strong></h6>
+                  <a
+                    href="#book"
+                    class="btn"
+                    style="background-color: orange; color: #fff"
+                    >Book Now</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="./image/vrinda.jpg" alt="" height="235px" />
+                <div class="card-body">
+                  <h5><b>Hotel Shah Imperial</b></h5>
+                  <p>
+                    Offering an outdoor swimming pool, a fitness centre and a
+                    spa and wellness centre, Sayaji Indore is located within 6
+                    km from Indore Railway Station and Regional Park Boating
+                    Club.
+                  </p>
+                  <div class="star">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h6>Price:<strong>Rs.500</strong></h6>
+                  <a
+                    href="#book"
+                    class="btn"
+                    style="background-color: orange; color: #fff"
+                    >Book Now</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <img src="./image/mid.webp" alt="" height="235px" />
+                <div class="card-body">
+                  <h5><b>Hotel Midland</b></h5>
+                  <p>
+                    Offering an outdoor swimming pool, a fitness centre and a
+                    spa and wellness centre, Sayaji Indore is located within 6
+                    km from Indore Railway Station and Regional Park Boating
+                    Club.
+                  </p>
+                  <div class="star">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h6>Price:<strong>Rs.500</strong></h6>
+                  <a
+                    href="#book"
+                    class="btn"
+                    style="background-color: orange; color: #fff"
+                    >Book Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="hotel" id="hotel">
+      <div class="container">
+        <div class="main-txt">
+          <!-- <h1><span>H</span>otel</h1> -->
+          <h1><span>Bhopal</span> Hotels</h1>
+        </div>
+        <div class="row" style="margin-top: 30px">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/leemon.jpg" alt="" height="235px" />
+              <div class="card-body">
+                <h5><b>Limontree Hotel </b></h5>
+                <p>
+                  Offering an outdoor swimming pool, a fitness centre and a spa
+                  and wellness centre, Sayaji Indore is located within 6 km from
+                  Indore Railway Station and Regional Park Boating Club.
+                </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6>Price:<strong>Rs.500</strong></h6>
+                <a
+                  href="#book"
+                  class="btn"
+                  style="background-color: orange; color: #fff"
+                  >Book Now</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/oasis.jpeg" alt="" height="235px" />
+              <div class="card-body">
+                <h5><b>Oasis Yellow Courtyard</b></h5>
+                <p>
+                  Offering an outdoor swimming pool, a fitness centre and a spa
+                  and wellness centre, Sayaji Indore is located within 6 km from
+                  Indore Railway Station and Regional Park Boating Club.
+                </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6>Price:<strong>RS.500</strong></h6>
+                <a
+                  href="#book"
+                  class="btn"
+                  style="background-color: orange; color: #fff"
+                  >Book Now</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/cae.jpg" alt="" height="235px" />
+              <div class="card-body">
+                <h5><b>Caesarc palace Bhopal
+                </b></h5>
+                <p>
+                  Offering an outdoor swimming pool, a fitness centre and a spa
+                  and wellness centre, Sayaji Indore is located within 6 km from
+                  Indore Railway Station and Regional Park Boating Club.
+                </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6>Price:<strong>Rs.500</strong></h6>
+                <a
+                  href="#book"
+                  class="btn"
+                  style="background-color: orange; color: #fff"
+                  >Book Now</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" style="margin-top: 30px">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/cortyard.avif" alt="" height="235px" />
+              <div class="card-body">
+                <h5><b>Courtyard by marriott Bhopal</b></h5>
+                <p>
+                  Offering an outdoor swimming pool, a fitness centre and a spa
+                  and wellness centre, Sayaji Indore is located within 6 km from
+                  Indore Railway Station and Regional Park Boating Club.
+                </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6>Price:<strong>Rs.500</strong></h6>
+                <a
+                  href="#book"
+                  class="btn"
+                  style="background-color: orange; color: #fff"
+                  >Book Now</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/taj lack.jpg" alt="" height="235px" />
+              <div class="card-body">
+                <h5><b>Taj Lakefront Bhopal
+                </b></h5>
+                <p>
+                  Offering an outdoor swimming pool, a fitness centre and a spa
+                  and wellness centre, Sayaji Indore is located within 6 km from
+                  Indore Railway Station and Regional Park Boating Club.
+                </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6>Price:<strong>Rs.500</strong></h6>
+                <a
+                  href="#book"
+                  class="btn"
+                  style="background-color: orange; color: #fff"
+                  >Book Now</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/raddyson.webp" alt="" height="235px" />
+              <div class="card-body">
+                <h5><b>Radisson Hotel Bhopal</b></h5>
+                <p>
+                  Offering an outdoor swimming pool, a fitness centre and a spa
+                  and wellness centre, Sayaji Indore is located within 6 km from
+                  Indore Railway Station and Regional Park Boating Club.
+                </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h6>Price:<strong>Rs.500</strong></h6>
+                <a
+                  href="#book"
+                  class="btn"
+                  style="background-color: orange; color: #fff"
+                  >Book Now</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------------------------SERVICES------------------------------------------------------ -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="main-txt">
+          <h1><span>S</span>ervices</h1>
+        </div>
+        <div class="row" style="margin-top: 30px">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <i class="fas fa-hotel"></i>
+              <div class="card-body">
+                <h3>Affordable Hotel</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Inventore quaerat odit qu
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <i class="fas fa-utensils"></i>
+              <div class="card-body">
+                <h3>Food And Drink</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Inventore quaerat odit qu
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <i class="fas fa-bullhorn"></i>
+              <div class="card-body">
+                <h3>Safty Guide</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Inventore quaerat odit qu
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" style="margin-top: 30px">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <i class="fas fa-globe-asia"></i>
+              <div class="card-body">
+                <h3>Around The World</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Inventore quaerat odit qu
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <i class="fas fa-plane"></i>
+              <div class="card-body">
+                <h3>Fastest Travel</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Inventore quaerat odit qu
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <i class="fas fa-hiking"></i>
+              <div class="card-body">
+                <h3>Adventures</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Inventore quaerat odit qu
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ---------------------------------GALLARY----------------------------------------------------- -->
+    <section class="gallary" id="gallary">
+      <div class="container">
+        <div class="main-txt">
+          <h1><span>G</span>allary</h1>
+        </div>
+        <div class="row" style="margin-top: 30px">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/sing3.jpeg" alt="" height="230px" />
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/ind3.jpeg" alt="" height="230px" />
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/ind4.jpeg" alt="" height="230px" />
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/sing2.jpeg" alt="" height="230px" />
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/ind7.jpeg" alt="" height="230px" />
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/lundan2.jpeg" alt="" height="230px" />
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/max.jpeg" alt="" height="230px" />
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/lundan3.jpeg" alt="" height="230px" />
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./image/new1.jpeg" alt="" height="230px" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -------------------------------ABOUT------------------------------------------------------- -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="main-txt">
+          <h1><span>A</span>boutUs</h1>
+        </div>
+        <div class="row" style="margin-top: 50px">
+          <div class="col-md-6 py-3 py-md-0">
+            <div class="card">
+              <img class="main-image" src="./image/about.webp" alt="" />
+            </div>
+          </div>
+          <div class="col-md-6 py-3 py-md-0">
+            <h2>How Travel Agency Work</h2>
+            <p>
+              A travel agency is a business that helps people plan and book their travel. They can help with things like booking flights, hotels, and rental cars, as well as creating custom itineraries for vacations or business trips
+            </p>
+            <p>
+              Some travel agencies also offer services like visa assistance, travel insurance, and excursions. They can work either online or in a physical location. In general, they help people plan their trip, book it, and manage it by providing services such as ticketing,<br> accommodation, tours, transportation, and travel insurance.
+            </p>
+            <p>
+              They may charge a fee for their services, or they may be paid a commission by the travel suppliers they work with.
+            </p><br>
+            <!-- <p>Lorem ipsum, dolor sit amet</p> -->
+            <button id="about-btn">Read More....</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ----------------------------------FOOTER-------------------------------------------------------- -->
+    <footer id="footer">
+      <h1><span>T</span>ravel</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur
+        provident, mollitia sequi labore voluptate sit voluptatibus nam esse
+        laboriosam aliquid culpa? Cupiditate ipsa numquam totam pariatur ab
+        itaque iusto suscipit?
+      </p>
+      <div class="social-link">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-pinterest-p"></i>
+      </div>
+      <div class="credit">
+        <p>Designed By <a href="a">Kapil Dharwal</a></p>
+      </div>
+      <div class="copyright">
+        <p>&copy;Copyright Kapil Dharwal.All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
